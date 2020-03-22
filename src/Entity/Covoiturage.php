@@ -181,8 +181,6 @@ class Covoiturage
         return $this;
     }
 
-
-
     public function getDateCreation(): ?\DateTimeInterface
     {
         return $this->date_creation;

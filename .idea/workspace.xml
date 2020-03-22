@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Blablacar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blablacar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Commentaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Commentaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Covoiturage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Covoiturage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +145,8 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZFsKv5dBPUcb7rpq4mUJI1MYAG" />
@@ -183,7 +190,7 @@
       <workItem from="1584734566142" duration="67000" />
       <workItem from="1584734719088" duration="14000" />
       <workItem from="1584736400116" duration="925000" />
-      <workItem from="1584873288850" duration="1164000" />
+      <workItem from="1584873288850" duration="5677000" />
     </task>
     <task id="LOCAL-00001" summary="Entitées créées.">
       <created>1584452485528</created>
@@ -220,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584736710352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="date_creation et date_modification initialisée à la date courante de création (Covoiturage et Commentaire)">
+      <created>1584876823444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584876823444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +258,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Entitées créées." />
     <MESSAGE value="Début: Entités crées" />
-    <option name="LAST_COMMIT_MESSAGE" value="Début: Entités crées" />
+    <MESSAGE value="date_creation et date_modification initialisée à la date courante de création (Covoiturage et Commentaire)" />
+    <option name="LAST_COMMIT_MESSAGE" value="date_creation et date_modification initialisée à la date courante de création (Covoiturage et Commentaire)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="137" width="1000" height="846" key="#Notifications" timestamp="1584732147713">
@@ -255,10 +270,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="1125" y="258" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584652913579" />
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584736710161">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584876823246">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584736710161" />
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876823246" />
     <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584731082012">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -287,10 +302,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="823" y="455" width="333" height="211" key="VCS.EditChangelistDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584726616734" />
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584876754655">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584876837443">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876754655" />
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876837443" />
     <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584732026741">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
