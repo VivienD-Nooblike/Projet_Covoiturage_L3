@@ -282,5 +282,4 @@ class Covoiturage
     {
         $this->date_modification = new \DateTime();
     }
-
 }
