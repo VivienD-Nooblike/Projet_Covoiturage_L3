@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Blablacar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blablacar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Covoiturage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Covoiturage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +184,7 @@
       <workItem from="1584734566142" duration="67000" />
       <workItem from="1584734719088" duration="14000" />
       <workItem from="1584736400116" duration="925000" />
-      <workItem from="1584873288850" duration="5677000" />
+      <workItem from="1584873288850" duration="7203000" />
     </task>
     <task id="LOCAL-00001" summary="Entitées créées.">
       <created>1584452485528</created>
@@ -234,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584876823444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Data fixtures injectées : Covoiturage, Utilisateur, Trajet sauf Commentaire">
+      <created>1584886188498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584886188498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +260,8 @@
     <MESSAGE value="Entitées créées." />
     <MESSAGE value="Début: Entités crées" />
     <MESSAGE value="date_creation et date_modification initialisée à la date courante de création (Covoiturage et Commentaire)" />
-    <option name="LAST_COMMIT_MESSAGE" value="date_creation et date_modification initialisée à la date courante de création (Covoiturage et Commentaire)" />
+    <MESSAGE value="Data fixtures injectées : Covoiturage, Utilisateur, Trajet sauf Commentaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data fixtures injectées : Covoiturage, Utilisateur, Trajet sauf Commentaire" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="137" width="1000" height="846" key="#Notifications" timestamp="1584732147713">
@@ -270,10 +272,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="1125" y="258" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584652913579" />
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584876823246">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584886188341">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876823246" />
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584886188341" />
     <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584731082012">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -302,10 +304,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="823" y="455" width="333" height="211" key="VCS.EditChangelistDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584726616734" />
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584876837443">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584887696413">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876837443" />
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584887696413" />
     <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584732026741">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -314,6 +316,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584731994659" />
+    <state x="521" y="302" width="938" height="517" key="git4idea.merge.GitPullDialog" timestamp="1584887663487">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="521" y="302" width="938" height="517" key="git4idea.merge.GitPullDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584887663487" />
     <state x="732" y="392" width="516" height="336" key="git4idea.rebase.GitRebaseDialog" timestamp="1584732062956">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
