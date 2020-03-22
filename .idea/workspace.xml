@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b919883-c370-44b1-baa3-4fcb17adfcae" name="Default Changelist" comment="">
+    <list default="true" id="2b919883-c370-44b1-baa3-4fcb17adfcae" name="Default Changelist" comment="date_creation ; date_modification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Commentaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Commentaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Covoiturage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Covoiturage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/VivienD-Nooblike/Projet_Covoiturage_L3.git" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -154,7 +163,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -218,13 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584889976103</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Controller">
+      <created>1584890217794</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584890217794</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
@@ -264,14 +281,14 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="1125" y="258" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584652913579" />
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584889976022">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584891128186">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584889976022" />
-    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584889971909">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584891128186" />
+    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584890896521">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889971909" />
+    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890896521" />
     <state x="725" y="258" width="599" height="612" key="FileChooserDialogImpl" timestamp="1584889893984">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -280,14 +297,14 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="805" y="426" key="Github.ShareDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584736482104" />
-    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog" timestamp="1584889532530">
+    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog" timestamp="1584890384090">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889532530" />
-    <state x="497" y="109" width="1284" height="912" key="SettingsEditor" timestamp="1584734616113">
+    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890384090" />
+    <state x="497" y="109" width="1284" height="912" key="SettingsEditor" timestamp="1584890927180">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="497" y="109" width="1284" height="912" key="SettingsEditor/70.34.1850.1046@70.34.1850.1046" timestamp="1584734616113" />
+    <state x="497" y="109" width="1284" height="912" key="SettingsEditor/70.34.1850.1046@70.34.1850.1046" timestamp="1584890927180" />
     <state x="824" y="455" width="332" height="211" key="VCS.ChangelistChooser" timestamp="1584732658644">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -296,26 +313,34 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="823" y="455" width="333" height="211" key="VCS.EditChangelistDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584726616734" />
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584890194464">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584890612386">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584890194464" />
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584890612386" />
     <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584890085423">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584890085423" />
-    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog" timestamp="1584889915046">
+    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog" timestamp="1584890349641">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889915046" />
-    <state x="481" y="302" width="1017" height="531" key="git4idea.merge.GitPullDialog" timestamp="1584890122894">
+    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890349641" />
+    <state x="481" y="302" width="1017" height="545" key="git4idea.merge.GitPullDialog" timestamp="1584890317473">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="481" y="302" width="1017" height="531" key="git4idea.merge.GitPullDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890122894" />
+    <state x="481" y="302" width="1017" height="545" key="git4idea.merge.GitPullDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890317472" />
     <state x="732" y="392" width="516" height="336" key="git4idea.rebase.GitRebaseDialog" timestamp="1584732062956">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="732" y="392" width="516" height="336" key="git4idea.rebase.GitRebaseDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584732062956" />
+    <state x="702" y="430" width="576" height="260" key="git4idea.ui.GitResetDialog" timestamp="1584891132494">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="702" y="430" width="576" height="260" key="git4idea.ui.GitResetDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584891132494" />
+    <state x="702" y="438" width="576" height="244" key="git4idea.ui.GitStashDialog" timestamp="1584890253767">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="702" y="438" width="576" height="244" key="git4idea.ui.GitStashDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584890253767" />
     <state x="702" y="365" width="586" height="390" key="git4idea.ui.GitTagDialog" timestamp="1584889878125">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
