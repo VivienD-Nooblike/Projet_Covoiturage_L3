@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="" />
-    <list id="b363d0f5-9001-41b1-b2ee-7843d57c7e79" name="Début: Entités crées" comment="" />
+    <list default="true" id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Commentaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Commentaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Covoiturage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Covoiturage.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +169,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="" />
-      <changelist id="b363d0f5-9001-41b1-b2ee-7843d57c7e79" name="Début: Entités crées" comment="" />
       <created>1584446115990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -180,7 +182,8 @@
       <workItem from="1584734418950" duration="92000" />
       <workItem from="1584734566142" duration="67000" />
       <workItem from="1584734719088" duration="14000" />
-      <workItem from="1584736400116" duration="265000" />
+      <workItem from="1584736400116" duration="925000" />
+      <workItem from="1584873288850" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="Entitées créées.">
       <created>1584452485528</created>
@@ -210,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584732123384</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Début: Entités crées">
+      <created>1584736710352</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584736710352</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,10 +255,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="1125" y="258" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584652913579" />
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584732123323">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584736710161">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584732123323" />
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584736710161" />
     <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584731082012">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -277,10 +287,10 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="823" y="455" width="333" height="211" key="VCS.EditChangelistDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584726616734" />
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584736497189">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584876754655">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584736497189" />
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584876754655" />
     <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584732026741">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
