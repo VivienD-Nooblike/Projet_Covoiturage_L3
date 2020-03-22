@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b2465ea-4619-4aa4-a92d-f07ebddfa301" name="Default Changelist" comment="" />
-    <list id="b363d0f5-9001-41b1-b2ee-7843d57c7e79" name="Début: Entités crées" comment="" />
+    <list default="true" id="2b919883-c370-44b1-baa3-4fcb17adfcae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +28,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -216,6 +217,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -234,7 +245,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Entitées créées." />
     <MESSAGE value="Début: Entités crées" />
-    <option name="LAST_COMMIT_MESSAGE" value="Début: Entités crées" />
+    <MESSAGE value="Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="137" width="1000" height="846" key="#Notifications" timestamp="1584732147713">
@@ -245,26 +257,26 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="1125" y="258" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584652913579" />
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584732123323">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2" timestamp="1584889514476">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584732123323" />
-    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584731082012">
+    <state x="420" y="34" width="1140" height="1046" key="CommitChangelistDialog2/70.34.1850.1046@70.34.1850.1046" timestamp="1584889514476" />
+    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog" timestamp="1584889971909">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584731082012" />
-    <state x="725" y="258" width="599" height="605" key="FileChooserDialogImpl" timestamp="1584734630880">
+    <state x="170" y="134" width="1650" height="846" key="DiffContextDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889971909" />
+    <state x="725" y="258" width="599" height="612" key="FileChooserDialogImpl" timestamp="1584889893984">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="725" y="258" width="599" height="605" key="FileChooserDialogImpl/70.34.1850.1046@70.34.1850.1046" timestamp="1584734630880" />
+    <state x="725" y="258" width="599" height="612" key="FileChooserDialogImpl/70.34.1850.1046@70.34.1850.1046" timestamp="1584889893984" />
     <state x="805" y="426" key="Github.ShareDialog" timestamp="1584736482104">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="805" y="426" key="Github.ShareDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584736482104" />
-    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog" timestamp="1584731040030">
+    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog" timestamp="1584889532530">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584731040030" />
+    <state x="704" y="171" width="572" height="779" key="RollbackChangesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889532530" />
     <state x="497" y="109" width="1284" height="912" key="SettingsEditor" timestamp="1584734616113">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
@@ -277,22 +289,26 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="823" y="455" width="333" height="211" key="VCS.EditChangelistDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584726616734" />
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584736497189">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1584889458458">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584736497189" />
-    <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584732026741">
+    <state x="490" y="230" width="1000" height="661" key="Vcs.Push.Dialog.v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584889458458" />
+    <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584889687427">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584732026741" />
-    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog" timestamp="1584731994659">
+    <state x="690" y="459" width="610" height="202" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.34.1850.1046@70.34.1850.1046" timestamp="1584889687427" />
+    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog" timestamp="1584889915046">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584731994659" />
+    <state x="683" y="302" width="623" height="517" key="git4idea.merge.GitMergeDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889915046" />
     <state x="732" y="392" width="516" height="336" key="git4idea.rebase.GitRebaseDialog" timestamp="1584732062956">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="732" y="392" width="516" height="336" key="git4idea.rebase.GitRebaseDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584732062956" />
+    <state x="702" y="365" width="586" height="390" key="git4idea.ui.GitTagDialog" timestamp="1584889878125">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="702" y="365" width="586" height="390" key="git4idea.ui.GitTagDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1584889878125" />
     <state x="787" y="302" width="405" height="516" key="svn.repositoryBrowser" timestamp="1584736541995">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
