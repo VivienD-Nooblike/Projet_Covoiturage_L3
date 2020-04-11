@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <table class="table text-center">
+        <tr>
+            <th class="active text-center">Trajet</th>
+            <th class="active text-center">Date départ</th>
+            <th class="active text-center">Date arrivée</th>
+            <th class="active text-center">Description</th>
+            <th class="active text-center">Nombre de place</th>
+            <th class="active text-center">Prix</th>
+            <th class="active text-center">Action</th>
+        </tr>
+
+        {% for covoiturage in covoiturages %}
+            <tr>
+                <td><a href="{{ path('covoiturage.show', {slug: covoiturage.slug}) }}">{{ covoiturage.trajet.itineraire }}</a></td>
+                <td>{{ covoiturage.datedepart|date('h:m d-m-Y') }}</td>
+                <td>{{ covoiturage.datearrivee|date('h:m d-m-Y') }}</td>
+                <td>{{ covoiturage.description }}</td>
+                <td>{{ covoiturage.nbplace }}</td>
+                <td>{{ covoiturage.prix }}</td>
+                <td>
+                    <form action = "{{ path('covoiturage.edit', {slug: covoiturage.slug}) }}">
+                        <button type="submit"  class="btn btn-info">Éditer covoiturage</button>
+                    </form>
+                    <form action = "{{ path('covoiturage.delete', {slug: covoiturage.slug}) }}">
+                        <button type="submit"  class="btn btn-danger">Supprimer covoiturage</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

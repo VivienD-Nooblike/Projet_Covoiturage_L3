@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {% for trajet in trajets %}
+            <table class="table text-center">
+                <p> <strong> {{ trajet.itineraire }}</strong> </p>
+            <tr>
+                <th class="active text-center">Covoiturage</th>
+                <th class="active text-center">Départ</th>
+                <th class="active text-center">Destination</th>
+                <th class="active text-center">Adresse de départ</th>
+                <th class="active text-center">Adresse d'arrivée</th>
+                <th class="active text-center">Temps de trajet</th>
+            </tr>
+
+            {% for covoiturage in trajet.getCovoiturages() %}
+                <tr>
+                    <td><a href="{{ path('covoiturage.show', {slug: covoiturage.slug}) }}">{{ covoiturage.id }}</a></td>
+                    <td>{{ trajet.depart }}</td>
+                    <td>{{ trajet.destination }}</td>
+                    <td>{{ trajet.adressedepart }}</td>
+                    <td>{{ trajet.adressearrivee }}</td>
+                    <td>{{ trajet.tempstrajet }}</td>
+                </tr>
+            {% endfor %}
+    {% endfor %}
+
+    </table>
+{% endblock %}
