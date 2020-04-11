@@ -4,14 +4,21 @@ namespace App\Controller;
 
 use App\Entity\Covoiturage;
 use App\Form\CovoiturageType;
+use App\Service\CovoiturageHistoryService;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-
+/**
+ * Require ROLE_USER for *every* controller method in this class.
+ *
+ * @IsGranted("ROLE_USER")
+ * @Route("/{_locale}/")
+ */
 class CovoiturageController extends AbstractController
 {
     /**
@@ -19,23 +26,26 @@ class CovoiturageController extends AbstractController
      * @Route("/covoiturage/", name="covoiturage.list")
      * @return Response
      */
-    public function list(): Response
+    public function list(EntityManagerInterface $em, CovoiturageHistoryService
+    $covoiturageHistoryService): Response
     {
         $covoiturages = $this->getDoctrine()->getRepository(Covoiturage::class)->getCovoituragesNonExpires();
 
         return $this->render('covoiturage/list.html.twig', [
             'covoiturages' => $covoiturages,
+            'historyCovoiturages' => $covoiturageHistoryService->getCovoiturages(),
         ]);
     }
 
     /**
      * Chercher et afficher un covoiturage.
-     * @Route("/covoiturage/{slug}", name="covoiturage.show")
+     * @Route("/covoiturage/{slug}", name="covoiturage.show", methods="GET")
      * @param Covoiturage $covoiturage
      * @return Response
      */
-    public function show(Covoiturage $covoiturage) : Response
+    public function show(Covoiturage $covoiturage, CovoiturageHistoryService $covoiturageHistoryService) : Response
     {
+        $covoiturageHistoryService->addCovoiturage($covoiturage);
         return $this->render('covoiturage/show.html.twig', [
             'covoiturage' => $covoiturage,
         ]);

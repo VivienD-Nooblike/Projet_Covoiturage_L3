@@ -1,6 +1,12 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+
+    Les covoiturages consultés récemment :
+    {% for covoiturage in historyCovoiturages %}
+        <a href="{{ path('covoiturage.list', {slug: covoiturage.slug}) }}">{{ covoiturage.trajet.itineraire }}</a>
+    {% endfor %}
+
     <table class="table text-center">
         <tr>
             <th class="active text-center">Trajet</th>
