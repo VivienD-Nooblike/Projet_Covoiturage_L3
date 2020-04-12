@@ -26,11 +26,6 @@ class CovoiturageType extends AbstractType
             ])
             ->add('date_depart', DateType::class)
             ->add('date_arrivee', DateType::class)
-            ->add ('passager', EntityType::class, [
-                'class' => Utilisateur::class,
-                'multiple' => true,
-                'choice_label' => 'prenom',
-            ])
             ->add('description', TextareaType::class)
             ->add('nb_place', IntegerType::class, [
                 'label' => 'Nombre de place disponible'

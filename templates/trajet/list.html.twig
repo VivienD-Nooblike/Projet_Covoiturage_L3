@@ -6,12 +6,12 @@
             <table class="table text-center">
                 <p> <strong> {{ trajet.itineraire }}</strong> </p>
             <tr>
-                <th class="active text-center">Covoiturage</th>
-                <th class="active text-center">Départ</th>
-                <th class="active text-center">Destination</th>
-                <th class="active text-center">Adresse de départ</th>
-                <th class="active text-center">Adresse d'arrivée</th>
-                <th class="active text-center">Temps de trajet</th>
+                <th class="active text-center">{{'trajet.covoiturage'|trans}}</th>
+                <th class="active text-center">{{'trajet.depart'|trans}}</th>
+                <th class="active text-center">{{'trajet.destination'|trans}}</th>
+                <th class="active text-center">{{'trajet.adresseD'|trans}}</th>
+                <th class="active text-center">{{'trajet.adresseA'|trans}}</th>
+                <th class="active text-center">{{'trajet.temps'|trans}}</th>
             </tr>
 
             {% for covoiturage in trajet.getCovoiturages() %}
